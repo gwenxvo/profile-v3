@@ -1,0 +1,68 @@
+@import url("components/card.css");
+@import url("components/container.css");
+@import url("components/table.css");
+
+body {
+  color: #1c2321;
+  background-image: url("https://images.unsplash.com/photo-1546514355-7fdc90ccbd03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+  font-family: 'Lato', sans-serif;
+  background-size: cover;
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+}
+
+.list-inline {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.icon:hover {
+  font-size: 55px;
+  color: rgb(34, 32, 36);
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.img-event {
+  object-fit: cover;
+}
+
+
+/* @media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
