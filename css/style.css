@@ -39,7 +39,7 @@ h4 {
 
 @media (max-width: 540px) {
   .container, .container-hero {
-    max-width: 400px;
+    min-width: 300px;
     justify-content: flex-start;
   }
 
