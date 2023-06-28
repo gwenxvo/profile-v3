@@ -37,26 +37,32 @@ h4 {
   font-size: 4rem!important;
 }
 
-.hero-nav {
-  font-size: 2rem!important;
+@media (max-width: 540px) {
+  .container, .container-hero {
+    max-width: 400px;
+    justify-content: flex-start;
+  }
+
+  .hero-hi {
+    justify-content: flex-start;
+  }
+
+  .vertical-center {
+    display: block!important;
+  }
+
+  h3 {
+    font-size: 10rem!important;
+  }
+
+  h4 {
+    font-size: 2rem!important;
+  }
+
+  .img-tools {
+    max-width: 90px;
+  }
 }
-
-.img-profile {
-  max-height: 100vh;
-  object-fit: cover;
-}
-
-.icon {
-  font-size: 50px;
-  padding: 10px;
-}
-
-.icon:hover {
-  font-size: 55px;
-  color: rgb(34, 32, 36);
-}
-
-
 
 /* @media (max-width: 960px) {
   .container {
@@ -68,10 +74,4 @@ h4 {
   .container {
     width: 500px;
   }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
-}
+}/
