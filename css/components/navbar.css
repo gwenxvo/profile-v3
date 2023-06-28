@@ -1,0 +1,77 @@
+.nav-tabs {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  height: max-content;
+  padding-top: 0px;
+  margin-right: 0px;
+}
+
+.nav-item {
+  height: 25vh;
+  margin-right: 8px;
+}
+
+.nav-item:hover {
+  padding-right: 20px!important;
+  box-shadow: -10px 4px 0px #B37548!important;
+}
+
+.hero-nav {
+  padding-right: 0px!important;
+  display: flex;
+  justify-content: end;
+}
+
+.nav-link {
+  margin: 0px auto;
+  padding: 6px!important;
+  padding-top: 15px!important;
+  color: #B37548!important;
+  border-top: 1px solid rgb(39, 37, 37)!important;
+  border-left: 1px solid rgb(39, 37, 37)!important;
+  border-bottom: 1px solid rgb(39, 37, 37)!important;
+  border-right: 0px solid rgb(39, 37, 37)!important;
+  border-radius: 0px!important;
+}
+
+.li-me {
+  background-color: rgb(39, 37, 37)!important;
+  color: #FFF7ED!important;
+}
+
+.li-skills {
+  background-color: #FFF7ED!important;
+  color: rgb(39, 37, 37)!important;
+}
+
+.li-portfolio {
+  background-color: #B37548!important;
+  color: #FFF7ED!important;
+}
+
+.li-books {
+  background-color: #C69A7A!important;
+  color: #FFF7ED!important;;
+}
+
+.item-me:hover {
+  background-color: rgb(39, 37, 37)!important;
+  border: none!important;
+}
+
+.item-portfolio:hover {
+  background-color: #B37548!important;
+  border: none!important;
+}
+
+.item-books:hover {
+  background-color: #C69A7A!important;
+  border: none!important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}

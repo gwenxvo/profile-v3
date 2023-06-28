@@ -1,0 +1,10 @@
+.tab {
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(23, 22, 22);
+}
+
+.tab:hover {
+  border-bottom: 2px solid black;
+  font-weight: bolder;
+}

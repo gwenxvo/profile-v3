@@ -1,33 +1,49 @@
 @import url("components/card.css");
 @import url("components/container.css");
 @import url("components/table.css");
+@import url("components/tab.css");
+@import url("components/hero.css");
+@import url("components/navbar.css");
+@import url("components/web.css");
+@import url("components/footer.css");
 
 body {
-  color: #1c2321;
-  background-image: url("https://images.unsplash.com/photo-1546514355-7fdc90ccbd03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
-  font-family: 'Lato', sans-serif;
-  background-size: cover;
-  text-align: center;
-  padding: 25px;
+  color: rgb(39, 37, 37);
+  background-color: #FFF7ED!important;
 }
 
-h1 {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-h2 {
-  text-align: center;
+h1, h2, h3, h4, .hero-nav {
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 p {
-  font-size: 14px;
+  font-family: 'Merriweather', serif;
 }
 
-.list-inline {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+h1 {
+  font-size: 6rem!important;
+}
+
+h2 {
+  color: #B37548!important;
+  font-size: 3rem!important;
+}
+
+h3 {
+  font-size: 14rem!important;
+}
+
+h4 {
+  font-size: 4rem!important;
+}
+
+.hero-nav {
+  font-size: 2rem!important;
+}
+
+.img-profile {
+  max-height: 100vh;
+  object-fit: cover;
 }
 
 .icon {
@@ -40,13 +56,6 @@ p {
   color: rgb(34, 32, 36);
 }
 
-ul {
-  padding-left: 0px;
-}
-
-.img-event {
-  object-fit: cover;
-}
 
 
 /* @media (max-width: 960px) {

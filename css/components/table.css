@@ -23,7 +23,8 @@ tr {
 .table {
 display: grid;
 align-items: center;
-margin: 10px 20px;
+margin: 20px auto;
+width: 90%;
 }
 
 th {
