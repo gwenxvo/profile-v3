@@ -78,13 +78,12 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px; /* Width of the scrollbar */
+  width: 7px; /* Width of the scrollbar */
 }
 
 /* Customize the thumb of the scrollbar */
 ::-webkit-scrollbar-thumb {
   background-color: rgb(39, 37, 37); /* Color of the thumb */
-  border-radius: 5px; /* Rounded corners of the thumb */
 }
 
 /* Change the color of the thumb when hovering */
