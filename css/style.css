@@ -62,6 +62,11 @@ h4 {
   .img-tools {
     max-width: 90px;
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 /* @media (max-width: 960px) {
